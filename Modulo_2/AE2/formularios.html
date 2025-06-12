@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Formulario Registro</h3>
+    <!-- FORMULARIOS -->
+    <form action="#" method="post">
+        <!-- ENTRADAS -->
+        <!-- TEXTO -->
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="name">
+        </div>
+        <!-- EMAIL -->
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <!-- NUMERO -->
+        <div>
+            <label for="altura">Altura</label>
+            <input type="number" id="altura" name="altura">
+        </div>
+        <!-- TELEFONO -->
+        <div>
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono">
+        </div>
+        <!-- FECHA -->
+        <div>
+            <label for="fecha">Fecha</label>
+            <input type="date" id="fecha" name="fecha">
+        </div>
+        <!-- FECHA Y HORA -->
+        <div>
+            <label for="fecha_hora">Fecha y Hora</label>
+            <input type="datetime-local" id="fecha_hora" name="fecha_hora">
+        </div>
+
+        <!-- COLOR -->
+        <div>
+            <label for="color">Color</label>
+            <input type="color" id="color" name="color">
+        </div>
+        <!-- URL -->
+        <div>
+            <label for="url">URL</label>
+            <input type="url" id="url" name="url">
+        </div>
+        <!-- FILE -->
+        <div>
+            <label for="archivo">Archivo</label>
+            <input type="file" id="archivo" name="archivo">
+        </div>
+        <!-- CONTRASEÑA -->
+        <div>
+            <label for="contrasena">Contraseña</label>
+            <input type="password" id="contrasena" name="contrasena">
+        </div>
+
+        <!-- SELECTORES -->
+        <!-- SELECT -->
+        <div>
+            <label for="pais">País</label>
+            <select id="pais" name="pais">
+                <option value="" selected disabled>Seleccione Pais</option>
+                <option value="es">España</option>
+                <option value="fr">Francia</option>
+                <option value="us">Estados Unidos</option>
+                <option value="mx">México</option>
+            </select>
+        </div>
+        <!-- RADIO -->
+        <div>
+            <label>Género</label>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="femenino" name="genero" value="femenino">
+            <label for="femenino">Femenino</label>
+        </div>
+
+        <!-- CHECKBOX -->
+        <div>
+            <label for="terminos">Aceptar términos y condiciones</label>
+            <input type="checkbox" id="terminos" name="terminos">
+        </div>
+
+        <!-- TEXTAREA -->
+        <div>
+            <label for="comentarios">Comentarios</label>
+            <br>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+        </div>
+
+
+
+        <!-- ACCIONES -->
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar</button>
+
+
+    </form>
+</body>
+
+</html>

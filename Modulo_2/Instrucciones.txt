@@ -1,0 +1,8 @@
+INSTRUCCIONES PARA NUESTRO MODULO 2
+
+- Estaremos trabajando en Visual Studio Code
+- Vamos a aprender de Frontend
+- Todas las preguntas están permitidas
+- Tenemos el compromiso de participar y hacer las actividades a tiempo
+
+__NO OLVIDEN LA ASISTENCIA__
