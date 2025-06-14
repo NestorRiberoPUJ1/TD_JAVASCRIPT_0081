@@ -1,0 +1,14 @@
+/* ESTilos comunes para texto */
+
+h1 {
+    /* Color del texto */
+    color: rgb(0, 0, 0);
+    /* Color de fondo */
+    background-color: rgb(255, 123, 0);
+    /* Tamaño de fuente */
+    font-size: 2em;
+}
+
+#titulo-raro{
+    text-decoration: wavy underline;
+}

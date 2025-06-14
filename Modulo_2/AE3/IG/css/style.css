@@ -1,0 +1,90 @@
+/* COMODIN */
+* {
+    padding: 0px;
+    margin: 0px;
+    /* MODO DESARROLLO */
+    outline: 2px dashed black;
+}
+
+/* SELECTORES DE ETIQUETA */
+header {
+    background-color: cadetblue;
+    height: 48px;
+}
+
+section {
+    background-color: lightgray;
+    min-height: 64px;
+}
+
+main {
+    background-color: lightblue;
+    height: 400px;
+}
+
+nav {
+    background-color: lightgreen;
+    height: 48px;
+}
+
+
+
+
+/* SELECTORES DE CLASE */
+
+.historia {
+    height: 48px;
+    width: 48px;
+    overflow: hidden;
+}
+
+.historia-img {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    border: 2px solid fuchsia;
+}
+
+.historia-p {
+    font-size: 10px;
+}
+
+/* ID */
+
+#mi-historia-img {
+    border: none;
+}
+
+
+/* SELECTOR DESCENDETE */
+
+.historia img {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    border: 2px solid fuchsia;
+}
+
+.historia p {
+    font-size: 10px;
+    color: red;
+}
+
+/* COMBINADO */
+
+article.historia {
+    height: 64px;
+    width: 100%;
+    background-color: lightcoral;
+}
+
+
+/* ATRIBUTOS */
+
+.historia[read="true"] img {
+    border: 2px solid black;
+}
+
+.historia[read="true"] p {
+    color:black;
+}
