@@ -1,0 +1,66 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    /* MODO DESARROLLO */
+    /* outline: 2px dashed black; */
+}
+
+
+.historia {
+    width: fit-content;
+    height: fit-content;
+}
+
+.historia>div {
+    /* width define el ancho del elemento */
+    width: 128px;
+    /* height define la altura del elemento */
+    height: 128px;
+    /* background-color color de fondo */
+
+    background: #bababa;
+    /* border-radius define el radio de las esquinas */
+    border-radius: 50%;
+    /* Overflow controla qué hacer cuando el contenido es más grande que el contenedor */
+    overflow: hidden;
+}
+
+.historia[new]>div {
+    background: #e200ff;
+    background: linear-gradient(135deg, #e200ff 0%, #ffce00 80%);
+}
+
+
+.historia>div>img {
+    width: 100%;
+    height: 100%;
+    /* OBJECT-FIT */
+    object-fit: cover;
+    /* BORDER GENERA UN BORDE ALREDEDOR DE LA IMAGEN */
+    border: 6px solid transparent;
+    /* BOX-SIZING  */
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.historia>figcaption {
+    text-align: center;
+}
+
+/* BODY */
+
+body {
+    /* BACKGROUND */
+    background-image: url("./assets/bg.avif");
+    /* BACKGROUND SIZE */
+    background-size: contain;
+    /* BACKGROUND REPEAT */
+    background-repeat: repeat;
+    /* BACKGROUND POSITION */
+    background-position: center;
+    /* BACKGROUND COLOR */
+    background-color: #c6c6c6;
+
+    /* ESCRIBIRLO TODO EN UNA SOLA LINEA */
+    background: url("./assets/bg.avif") center / contain repeat #c6c6c6;
+}

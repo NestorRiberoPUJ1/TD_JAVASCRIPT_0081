@@ -1,3 +1,7 @@
+/* IMPORTACIONES */
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+
+
 /* COMODIN */
 * {
     padding: 0px;
@@ -7,10 +11,6 @@
 }
 
 /* SELECTORES DE ETIQUETA */
-header {
-    background-color: cadetblue;
-    height: 48px;
-}
 
 section {
     background-color: lightgray;
@@ -86,5 +86,37 @@ article.historia {
 }
 
 .historia[read="true"] p {
-    color:black;
+    color: black;
+}
+
+
+/* ESTILOS DE LA CABECERA */
+
+header {
+    /* background-color afecta el color de fondo */
+    background: #ff00a2;
+    background: linear-gradient(180deg, #ff00a2 0%, #ffce00 80%);
+    height: 48px;
+}
+
+/* PROPIEDADES DEL TEXTO */
+
+header>h1 {
+    /* La propiedad color afecta el color del texto */
+    color: #000000;
+    /* La propiedad font-size afecta el tamaño del texto */
+    font-size: 1.5em;
+    /* ALINEACIÓN DEL TEXTO */
+    text-align: center;
+    /* DECORACIÓN */
+    text-decoration: underline;
+    /* FONT STYLE (DEPENDE DE QUE LA FAMILIA SOPORTE EL ESTILO) */
+    font-style: oblique;
+    /* FONT WEIGHT (DEPENDE DE QUE LA FAMILIA SOPORTE EL ESTILO) */
+    font-weight: 100;
+    /* FONT FAMILY */
+    font-family: "Rouge Script", cursive;
+    /* TEXT SHADOW */
+    text-shadow: 5px 6px 0px rgba(0,0,0,0.24);
+
 }
