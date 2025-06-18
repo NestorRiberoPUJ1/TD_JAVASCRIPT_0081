@@ -9,6 +9,62 @@ h1 {
     font-size: 2em;
 }
 
-#titulo-raro{
+#titulo-raro {
     text-decoration: wavy underline;
+}
+
+
+/* ESTILOS FLEXIBLES */
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: hotpink;
+    text-align: center;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.contenedor-flexible {
+    outline: 2px solid black;
+    min-height: 128px;
+    display: flex;
+    flex-direction: row;
+    /* Dirección de los elementos */
+    align-items: center;
+    /* WRAP */
+    flex-wrap: wrap;
+    align-content: space-evenly;
+
+}
+
+/* ALINEACION CENTRO */
+.contenedor-flexible[justify-content="center"] {
+    justify-content: center;
+    /* Alineación horizontal */
+}
+
+/* ALINEACION AL FINAL  */
+.contenedor-flexible[justify-content="flex-end"] {
+    justify-content: flex-end;
+    /* Alineación horizontal */
+}
+
+/* DISTRIBUCION UNIFORME */
+.contenedor-flexible[justify-content="space-evenly"] {
+    justify-content: space-evenly;
+    /* Distribución uniforme */
+}
+
+/* DISTRIBUCION INTERNA */
+.contenedor-flexible[justify-content="space-between"] {
+    justify-content: space-between;
+}
+
+/* DISTRIBUCION AL REDEDOR */
+.contenedor-flexible[justify-content="space-around"] {
+    justify-content: space-around;
+    /* Distribución alrededor */
 }

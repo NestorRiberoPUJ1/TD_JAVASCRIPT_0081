@@ -36,6 +36,14 @@ nav {
     height: 48px;
     width: 48px;
     overflow: hidden;
+    background-color: goldenrod;
+    margin: 16px;
+    padding: 4px;
+    border: 2px solid lightcoral;
+    /* BOXSIZING */
+    box-sizing: border-box;
+    /* DISPLAY */
+    display: inline-block;
 }
 
 .historia-img {
@@ -117,6 +125,6 @@ header>h1 {
     /* FONT FAMILY */
     font-family: "Rouge Script", cursive;
     /* TEXT SHADOW */
-    text-shadow: 5px 6px 0px rgba(0,0,0,0.24);
+    text-shadow: 5px 6px 0px rgba(0, 0, 0, 0.24);
 
 }
