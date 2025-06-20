@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* OPCIONAL */
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 36px;
+    padding: 0px 8px;
+}
+.navbar h1 {
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+/* PANTALLAS DE ANCHO ENTRE 576px Y 768px */
+@media (min-width: 576px) {
+    .navbar {
+        height: 48px;
+        padding: 0px 16px;
+    }
+
+    .navbar h1 {
+        font-size: 20px;
+    }
+}
+
+/* PANTALLAS DE ANCHO ENTRE 768px Y 1024px */
+@media (min-width: 768px)  {
+    .navbar {
+        height: 56px;
+        padding: 0px 24px;
+    }
+
+    .navbar h1 {
+        font-size: 24px;
+    }
+}
+
+
+/* CUANDO SE GIRA LA PANTALLA */
+@media (orientation: landscape) {
+    body{
+        background-color: lightgray;
+    }
+}
+@media (orientation: portrait) {
+    body{
+        background-color: lightcoral;
+    }
+}

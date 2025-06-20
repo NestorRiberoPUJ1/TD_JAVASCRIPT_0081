@@ -1,0 +1,17 @@
+
+
+
+#profile-pic{
+    width: 64px;
+    height: 64px;
+    background-color: rgb(136, 245, 255);
+    border-radius: 50%;
+    padding: 4px;
+    object-fit: cover;
+    transform: translateY(40px);
+    border: 2px solid white;
+}
+
+.solicitud>img{
+    height: 36px;
+}

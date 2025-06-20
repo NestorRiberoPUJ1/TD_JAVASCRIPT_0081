@@ -1,3 +1,10 @@
+/* RESET */
+*{
+    margin: 0px;
+    padding: 0px;
+    /* OPCIONAL */
+    box-sizing: border-box;
+}
 
 body{
     overflow: visible;
