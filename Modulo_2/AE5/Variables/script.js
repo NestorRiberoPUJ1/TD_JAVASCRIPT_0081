@@ -31,11 +31,25 @@ let listaBinarios = [true, false, true]; // Lista de valores booleanos
 // Lista mixtas
 let listaMixta = [42, "Hola", true, 3.14]; // Lista que contiene diferentes tipos de datos
 
-
-
-
 // Objectos
+// Usualmente se utilizan para almacenar datos que tienen una estructura más compleja, como un objeto con propiedades y valores.
 
+let objetoPersona = {
+    nombre: "Juan",
+    edad: 30,
+    ciudad: "Madrid",
+    activo: true,
+    altura: 1.75,
+    lenguajes: ["JavaScript", "Python", "Java"],
+    direccion: {
+        calle: "Calle Falsa",
+        numero: 123,
+        codigoPostal: "28080"
+    },
+    saludar: ()=>{
+        console.log(`Hola, mi nombre es ${this.nombre} y tengo ${this.edad} años.`);
+    }
+}; // Objeto que representa una persona con propiedades nombre, edad y ciudad
 
 
 /* OPERADORES */

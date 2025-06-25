@@ -46,3 +46,17 @@ for (let i = 0; i < gruposMusicales.length; i++) {
 gruposMusicales.forEach((grupo, index) => {
     console.log("Grupo en la posición", index, ":", grupo);
 });
+
+
+// Listas constantes
+
+let diasSemana = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]; // Creo
+diasSemana = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]; // Reasigno
+console.log("Días de la semana en inglés:", diasSemana);
+
+const weekDays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]; // Creo una constante
+weekDays.shift();
+weekDays.unshift("Lunes");
+
+
+console.log("Días de la semana en español:", weekDays); // Esto no se ejecutará debido al error anterior
