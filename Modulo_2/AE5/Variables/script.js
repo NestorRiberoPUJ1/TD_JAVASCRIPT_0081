@@ -21,7 +21,18 @@ let falso = false;
 
 
 /* VARIABLES COMPLEJAS */
-// Listas
+// Listas O Arreglos
+
+// Usualmente se utilizan para almacenar datos de una semantica similar o relacionada.
+
+let listaNumeros = [1, 2, 3, 4, 5]; // Lista de números
+let listaTextos = ["Manzana", "Banana", "Cereza"]; // Lista
+let listaBinarios = [true, false, true]; // Lista de valores booleanos
+// Lista mixtas
+let listaMixta = [42, "Hola", true, 3.14]; // Lista que contiene diferentes tipos de datos
+
+
+
 
 // Objectos
 
@@ -48,7 +59,7 @@ numero %= 3; // Módulo y asigna: numero = numero % 3 (ahora numero es 2)
 
 // Aplican los principios de la jerarquia de operaciones
 let resultado = 5 + 3 * 2; // Primero se multiplica, luego se suma. Resultado: 11
-let resultado2 = (5 + 3) *  2; // Primero se suma, luego se multiplica. Resultado: 16
+let resultado2 = (5 + 3) * 2; // Primero se suma, luego se multiplica. Resultado: 16
 
 
 // Operaciones entre cadenas de texto
