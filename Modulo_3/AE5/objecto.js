@@ -88,10 +88,27 @@ console.log(pelicula.director.toUpperCase()); // Convierte el nombre del directo
 
 
 
-let ingredientes =["lechuga", "tomate", "cebolla", "queso", "tocino"];
+let ingredientes = ["lechuga", "tomate", "cebolla", "queso", "tocino"];
 
 let unidos = ingredientes.join(", ");
 let conComillas = ingredientes.map(ingrediente => `"${ingrediente}"`).join("-");
 console.log(unidos); // Imprime: lechuga, tomate, cebolla, queso, tocino
 console.log(conComillas); // Imprime: "lechuga""tomate""cebolla
+
+
+
+console.log(typeof "Hola Mundo");
+console.log(typeof new String("Hola Mundo"));
+
+let saludo = "Hola Mundo";
+console.log(typeof saludo);
+let saludoObjeto = new String("Hola Mundo");
+console.log(typeof saludoObjeto);
+console.log(saludo=== saludoObjeto); // false, porque son de tipos diferentes
+
+let obj={
+  saludo: "Hola Mundo",
+}
+console.log(typeof obj.saludo);
+console.log( obj.saludo === saludoObjeto);
 
