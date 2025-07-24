@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    background-color: antiquewhite;
+    column-gap: 16px;
+}

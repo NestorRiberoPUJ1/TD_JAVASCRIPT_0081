@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <h1>LISTA DE MERCADO</h1>
+    <form action="#" onsubmit="agregarProducto(event)">
+        <div>
+            <label for="producto">Nombre Producto</label>
+            <input type="text" name="producto" id="producto" placeholder="Ingrese el nombre del producto">
+        </div>
+        <div>
+            <button type="submit">Agregar</button>
+        </div>
+    </form>
+    <hr>
+    <section class="row">
+        <section>
+            <h3>Productos Agregados</h3>
+            <ul id="lista-productos-agregados">
+
+            </ul>
+        </section>
+        <section>
+            <h3>Productos Ya Comprados</h3>
+            <ul id="lista-productos-comprados">
+
+            </ul>
+        </section>
+    </section>
+</body>
+
+</html>
