@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+body {
+    position: relative;
+    background-color: black;
+}
+
+#pacman {
+    height: 48px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
