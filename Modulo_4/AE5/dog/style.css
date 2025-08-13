@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.img-container {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.perrito {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.loading {
+    height: 50%;
+    width: 50%;
+    object-fit: cover;
+}
