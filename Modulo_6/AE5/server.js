@@ -26,3 +26,10 @@ app.delete('/paises/:id',(req,res)=>{
     const paises = paisesFunc.eliminarPais(id);
     res.json(paises);
 })
+
+
+
+//servidor
+app.listen(port, () => {
+    console.log(`Servidor escuchando en el puerto ${port}`);
+});
