@@ -1,0 +1,12 @@
+[
+    {
+        "id:":1,
+        "nombre": "Marco Antonio Solis",
+        "genero": "Balada"
+    },
+    {
+        "id":2,
+        "nombre": "Sandro",
+        "genero": "Balada"
+    }
+]
