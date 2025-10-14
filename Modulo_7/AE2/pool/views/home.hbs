@@ -1,0 +1,35 @@
+<h1>BIENVENIDO A MIS MASCOTAS</h1>
+
+<h4>LISTA DE MASCOTAS ({{pets.rowCount}}) </h4>
+
+
+
+<table>
+    <thead>
+        <tr>
+            {{#each pets.fields}}
+                <th>{{formatData this.name}}</th>
+            {{/each}}
+            <th>
+                ACCIONES
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each pets.rows}}
+            <tr>
+                {{#each this}}
+                    <td>{{formatData this}} </td>
+                {{/each}}
+                <td>
+                    <a href="/pets/{{this.id}}">Ver</a>
+                </td>
+            </tr>
+        {{/each}}
+    </tbody>
+</table>
+
+<form action="/" method="get">
+    <input type="text" name="specie" placeholder="Especie">
+    <button type="submit">Buscar</button>
+</form>
