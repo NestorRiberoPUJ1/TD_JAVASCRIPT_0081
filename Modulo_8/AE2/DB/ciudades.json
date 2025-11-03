@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "ciudad": "New York",
+    "pais": "Estados Unidos",
+    "poblacion": 8419600,
+    "lugares": [
+      "Brooklyn Bridge",
+      "Statue of Liberty",
+      "Central Park",
+      "Times Square",
+      "Empire State Building",
+      "Rockefeller Center"
+    ]
+  },
+  {
+    "id": 2,
+    "ciudad": "Tokyo",
+    "pais": "Japón",
+    "poblacion": 13929286,
+    "lugares": [
+      "Shibuya Crossing",
+      "Tokyo Tower",
+      "Senso-ji Temple",
+      "Meiji Shrine",
+      "Ueno Park",
+      "Tsukiji Market"
+    ]
+  },
+  {
+    "id": 3,
+    "ciudad": "Paris",
+    "pais": "Francia",
+    "poblacion": 2140526,
+    "lugares": [
+      "Eiffel Tower",
+      "Louvre Museum",
+      "Notre-Dame Cathedral",
+      "Champs-Élysées",
+      "Sacré-Cœur Basilica",
+      "Palace of Versailles"
+    ]
+  },
+  {
+    "id": 4,
+    "ciudad": "Sydney",
+    "pais": "Australia",
+    "poblacion": 5312163,
+    "lugares": [
+      "Sydney Opera House",
+      "Harbour Bridge",
+      "Bondi Beach",
+      "Taronga Zoo",
+      "Royal Botanic Garden",
+      "The Rocks"
+    ]
+  },
+  {
+    "id": 5,
+    "ciudad": "Rio de Janeiro",
+    "pais": "Brasil",
+    "poblacion": 6748000,
+    "lugares": [
+      "Christ the Redeemer",
+      "Copacabana Beach",
+      "Sugarloaf Mountain",
+      "Ipanema Beach",
+      "Tijuca National Park",
+      "Maracanã Stadium"
+    ]
+  },
+  {
+    "id": 6,
+    "ciudad": "El Cairo",
+    "pais": "Egipto",
+    "poblacion": 9500000,
+    "lugares": [
+      "Pyramids of Giza",
+      "Egyptian Museum",
+      "Khan El Khalili Bazaar",
+      "Citadel of Saladin",
+      "Al-Azhar Mosque",
+      "Coptic Cairo"
+    ]
+  },
+  {
+    "id": 7,
+    "ciudad": "Santiago",
+    "pais": "Chile",
+    "poblacion": 5743719,
+    "lugares": [
+      "Cerro San Cristóbal",
+      "Plaza de Armas",
+      "La Moneda Palace",
+      "Barrio Bellavista",
+      "Museo Chileno de Arte Precolombino",
+      "Parque Bicentenario"
+    ]
+  },
+  {
+    "id": 8,
+    "ciudad": "Bucaramanga",
+    "pais": "Colombia",
+    "poblacion": 581130,
+    "lugares": [
+      "Parque del Agua",
+      "Catedral de la Sagrada Familia",
+      "Estadio Américo Montanini",
+      "Parque Nacional del Chicamocha",
+      "Teatro Santander",
+      "Parroquia Sagrado Corazón de Jesús"
+    ]
+  }
+] 
