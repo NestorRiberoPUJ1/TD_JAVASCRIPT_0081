@@ -1,6 +1,5 @@
 const express = require('express');
 const fs = require('fs');
-const { listarCiudades } = require('./models/ciudad');
 const app = express();
 const port = 3000;
 
@@ -8,11 +7,9 @@ const port = 3000;
 app.use(express.json());
 
 
-
-
 // ESTRUCTURA DE RUTAS PARA REST API DE CIUDADES
-const ciudadesRouter = require('./routes/ciudades.routes');
-app.use('/api/v1/ciudades', ciudadesRouter);
+app.use('/api/v1/ciudades', require('./routes/ciudades.routes'));   // Rutas versión 1
+app.use('/api/v2/ciudades', require('./routes/ciudades.v2.routes')); // Rutas versión 2 con HATEOAS
 
 
 
