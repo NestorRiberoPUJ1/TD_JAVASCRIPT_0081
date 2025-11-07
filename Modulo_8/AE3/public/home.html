@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Subida de Imágenes</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    .image-container { display: inline-block; text-align: center; margin: 10px; }
+    .image-container img { width: 150px; display: block; margin-bottom: 5px; }
+    button { cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Subida de Imágenes</h1>
+  <form action="/upload" method="POST" enctype="multipart/form-data">
+    <input type="file" name="archivo" multiple required>
+    <button type="submit">Subir Imagen</button>
+  </form>
+
+  <h2>Imágenes Subidas</h2>
+  <div id="images">
+    <!-- IMAGENES_AQUI -->
+  </div>
+</body>
+</html>
